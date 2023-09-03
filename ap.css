@@ -1,0 +1,477 @@
+header{
+
+  background-color: black;
+  width: 100%;
+  height: 140px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.logo{
+
+
+ width: 200px;
+ height: 120px;
+
+}
+
+body{
+
+ margin: 0;
+
+}
+
+
+
+li{
+
+  list-style: none;
+  padding-right: 20px;
+  padding-top: 50px;
+    
+}
+
+a{
+
+  text-decoration: none;
+  color: #FDB714;
+  font-family: "montserrat-semibold";
+  font-size: 10px;
+  
+
+}
+
+ul{
+
+ display: flex;
+ 
+
+}
+
+@font-face {
+    font-family: "montserrat-bold";
+    src: url(font/Montserrat-Bold.ttf);
+    
+}
+
+@font-face {
+    font-family: "montserrat-medium";
+    src: url(font/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: "montserrat-semibold";
+    src: url(font/Montserrat-SemiBold.ttf);
+}
+
+.section1{
+
+  background-image: url('image/feature-00[1385].jpg');
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+  background-size: 100%;
+  position: relative;
+  bottom: 40px;
+}
+
+.textCover{
+
+
+ text-align: center;
+ font-size: 1em;
+ font-family: "montserrat-semibold";
+ color: #FDB714;
+ position: relative;
+ top: 100px;
+
+
+}
+
+h5{
+  
+  text-align: center;
+  font-family: 'montserrat-semibold';
+}
+
+p{
+  font-family: 'montserrat-semibold';
+  text-align: center;
+
+}
+
+
+.iconText{
+
+font-size: 13px;
+
+
+}
+
+
+
+.parentIcon{
+
+display: flex;
+justify-content: space-around;
+border-width: 5px;
+
+
+
+
+}
+
+.icon{
+
+
+  border-style: solid;
+  border-color :#FDB714; 
+  background-color: #FDB714;
+  border-radius: 200px 200px 200px 200px;
+  padding: 50px;
+
+}
+
+.paraIcon{
+
+ display: flex;
+ justify-content: space-between;
+ 
+
+
+
+}
+
+h1{
+
+
+  text-align: center;
+  font-size: 50px;
+  color: #FDB714;
+}
+
+p{
+
+
+text-align: center;
+
+}
+
+.imgTech{
+
+border-style: solid;
+border-color: black;
+border-radius: 5px 5px 5px 5px;
+width: 400px;
+height: 300px;
+margin-top: 20px;
+
+
+}
+
+.tech{
+
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+justify-content: space-around;
+
+}
+
+h2{
+
+
+ justify-content: space-between;
+
+
+}
+
+figcaption{
+
+   font-size: 30px;
+   text-align: center;
+}
+
+p{
+
+
+ text-align: center;
+
+
+}
+
+
+h3{
+
+ text-align: center;
+
+
+}
+
+@font-face{
+
+font-family: 'montserrat-Bold.ttf';
+src:url('font/Montserrat-Bold.ttf')
+
+
+}
+
+h1{
+
+
+ text-align: center;
+ font-family: 'montserrat-Bold';
+
+}
+
+h2{
+
+
+ text-align: center;
+
+}
+
+
+
+
+
+
+footer{
+
+
+background-color: black;
+width: 100%;
+height: 140px;
+display: flex;
+justify-content: space-around;
+color: #FDB714;
+
+
+
+
+}
+
+.p3{
+
+
+ font-size: 20px;
+
+
+
+}
+iframe{
+
+
+  width: 100%;
+  height: 480px;
+
+
+}
+
+.form{
+
+  text-align: center;
+  margin: auto;
+  width: 200px;
+  border: 5px solid black;
+  background-image: url('image/map-bg[2027].jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  }
+  
+  input{
+  
+  font-size: 50px;
+  border: 2px solid #FDB714;
+  border-radius: 10px;
+  
+  }
+
+  .form{
+
+   
+   height: 900px;
+   width: 100%;
+
+
+  }
+
+  label{
+
+    color: white;
+    font-size: 50px;
+  }
+
+  .slider{
+
+    
+    margin: auto;
+    width: 300px;
+    overflow: hidden;
+
+
+  }
+  
+  .slide{
+
+
+     display: flex;
+     
+  }
+  
+  .slid{
+
+
+
+   height: 300px;
+   width: 300px;
+   animation: pili 10s infinite;
+
+
+  }
+
+  @keyframes pili{
+
+    0%{
+
+
+  transform: translateX(0);
+
+    }
+
+   33%{
+
+
+    transform: translateX(-297px);
+
+   }
+
+   66%{
+
+ transform: translateX(-594px);
+
+
+   }
+
+    100%{
+
+      transform: translateX(0);
+
+    }
+
+
+
+  }
+
+  @media all and (min-width: 320px) and (max-width: 500px) {
+
+  .icon>img{
+
+
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto ;
+    
+
+  }
+
+
+
+   header{
+
+      width: 100%;
+      height: 150px;
+
+   }
+
+   ul{
+
+   display: flex;
+   flex-direction: column;
+
+  
+   }
+
+   li{
+
+
+    margin: 0;
+    padding: 0;
+   }
+
+   .section1{
+
+    font-size: 10px;
+    height: 200px;
+
+   }
+
+   .parentIcon{
+
+
+    display: flex;
+    flex-direction: column;
+
+   }
+
+   .icon{
+
+
+     padding: 10px;
+
+   }
+
+   input{
+
+
+    width: 100%;
+    
+
+   }
+
+   .imgTech{
+
+   width: 100%;
+
+   }
+
+   .p3{
+
+    font-size: 10px;
+
+    
+
+   }
+
+  }
+
+  @media screen and (width:768px) {
+
+    .p3{
+
+
+     font-size: 15px;
+
+    }
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
